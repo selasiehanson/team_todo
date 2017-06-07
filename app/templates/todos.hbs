@@ -1,0 +1,10 @@
+<h2 class="header">Welcome</h2>
+
+{{input class="new-todo" value=newTodo}} <button class="submit">Add Todo</button>
+
+<ul class="todos">
+  {{#each model as |todo|}}
+    <li> {{todo.text}}  </li>
+  {{/each}}
+</ul>
+
