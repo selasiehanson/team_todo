@@ -7,9 +7,9 @@ moduleForAcceptance("Acceptance | todos", {
   }
 });
 
-test("visiting /todos", assert => {
+test("visiting todos", assert => {
   andThen(() => {
-    assert.equal(currentURL(), "/todos");
+	  assert.equal(currentURL(), "/todos");
   });
 });
 

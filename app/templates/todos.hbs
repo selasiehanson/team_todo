@@ -1,10 +1,11 @@
-<h2 class="header">Welcome</h2>
+<header class="header">Welcome</header>
 
-{{input class="new-todo" value=newTodo}} <button class="submit">Add Todo</button>
+{{ input class="new-todo" value=newTodo }}
+<button class="submit">Add Todo</button>
 
 <ul class="todos">
+  <li>Skate</li>
   {{#each model as |todo|}}
     <li> {{todo.text}}  </li>
   {{/each}}
 </ul>
-
